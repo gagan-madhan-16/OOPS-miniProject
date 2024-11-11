@@ -1,0 +1,9 @@
+1) sudo nano /etc/apt/apt.conf.d/95proxies
+
+2)Acquire::http::Proxy "http://IIT2023022:urlencodedpassword@172.31.2.3:8080/";
+Acquire::https::Proxy "http://IIT2023022:urlencodedpassword@172.31.2.3:8080/";
+
+3) ctrl+O
+4) enter
+5)ctrl + X
+
